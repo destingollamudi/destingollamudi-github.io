@@ -6,3 +6,26 @@
   font-size: 20px;
   border-radius: 10px;
 }
+
+body{
+  font-family: 'Roboto', Arial;
+}
+
+.pfp {
+  width: 150px;
+  height: 150px;          
+  border-radius: 50%;    
+  overflow: hidden;       
+  display: flex;         
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; 
+}
+
+.pfp img {
+  width: 100%;            
+  height: auto;           
+  object-fit: cover;      
+  object-position: center;
+  margin-top: -35x;
+}
