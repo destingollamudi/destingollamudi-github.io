@@ -157,8 +157,8 @@ body {
 }
 
 .carousel-track-container {
-  overflow: hidden; /* Hide overflowing slides */
-  width: 80%; /* Adjust width as needed */
+  overflow: hidden; 
+  width: 80%; 
 }
 
 .carousel-track {
@@ -168,7 +168,7 @@ body {
 }
 
 .carousel-slide {
-  min-width: 100px; /* Adjust the size of each logo */
+  min-width: 100px; 
   height: 150px;
   display: flex;
   justify-content: center;
@@ -178,7 +178,7 @@ body {
 .carousel-slide img {
   width: 100%;
   height: auto;
-  object-fit: contain; /* Ensure logos fit within the slides */
+  object-fit: contain; 
 }
 
 /* Buttons */
@@ -234,25 +234,25 @@ footer {
 /* Media query for desktop screens (≥768px) */
 @media (min-width: 768px) {
   .hero {
-    flex-direction: row; /* Switch to side-by-side layout */
-    text-align: left; /* Align text to the left */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Align items vertically */
-    gap: 2rem; /* Add spacing between the image and text */
+    flex-direction: row; 
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
   }
 
   .hero img {
-    margin: 0; /* Remove default centering margin */
+    margin: 0; 
   }
 
   .hero h1{
-    align-items: center; /* Add spacing to the left */
+    align-items: center; 
   }
 
   .hero-text {
     display: flex;
-    flex-direction: column; /* Stack text elements vertically */
-    align-items: flex-start; /* Align text to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
 }
 
@@ -272,22 +272,21 @@ body.dark-mode {
   --secondary-color: #ff9800;
 }
 
-/* Apply Variables */
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 2rem;
-  background-color: var(--background-color); /* Use the theme background */
-  color: var(--text-color); /* Use the theme text color */
+  background-color: var(--background-color); 
+  color: var(--text-color); 
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .hero img {
-  width: 150px; /* Exact dimensions */
+  width: 150px; 
   height: 150px;
-  object-fit: cover; /* Crop to fill the circle */
-  border-radius: 50%; /* Make it circular */
-  border: 2px solid var(--secondary-color); /* Match the theme color */
-  transition: border-color 0.3s ease; /* Smooth transition for border color */
+  object-fit: cover; 
+  border-radius: 50%; 
+  border: 2px solid var(--secondary-color); 
+  transition: border-color 0.3s ease;
 }
 .hero h1 {
   font-size: 2rem;

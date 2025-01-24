@@ -1,4 +1,3 @@
-// script.js
 const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu');
 
@@ -7,7 +6,6 @@ hamburger.addEventListener('click', () => {
   menu.classList.toggle('open'); // Toggles the 'open' class on the menu
 });
 
-// script.js
 const track = document.querySelector('.carousel-track');
 const slides = Array.from(track.children);
 const prevButton = document.querySelector('.carousel-btn.prev');
@@ -35,7 +33,6 @@ prevButton.addEventListener('click', () => {
   updateSlidePosition();
 });
 
-// script.js
 const toggleButton = document.getElementById('theme-toggle');
 const body = document.body;
 
